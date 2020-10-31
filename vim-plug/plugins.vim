@@ -1,6 +1,12 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+" Denite
+Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
+" Themes
 Plug 'morhetz/gruvbox'
+
+"Auto pari for [, { and (
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 

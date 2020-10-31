@@ -23,6 +23,7 @@ set smartindent
 set autoindent
 set laststatus=2
 set number
+set background=dark
 set cursorline
 set showtabline=2
 set noshowmode
