@@ -17,7 +17,7 @@ source $HOME/.config/nvim/themes/gruvbox.vim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 source $HOME/.config/nvim/plug-config/denite.vim
+source $HOME/.config/nvim/plug-config/coc.vim
 
 
-
-
+source $HOME/.config/nvim/general/path.vim
