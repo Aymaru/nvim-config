@@ -31,7 +31,7 @@ set nobackup
 set nowritebackup
 set signcolumn=yes
 set updatetime=300
-set timeoutlen=100
+set timeoutlen=500
 set clipboard=unnamedplus
 set incsearch
 

@@ -8,6 +8,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Themes
 Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Floaterm
 Plug 'voldikss/vim-floaterm'
@@ -17,6 +19,15 @@ Plug 'jiangmiao/auto-pairs'
 
 " Json with comments
 Plug 'kevinoid/vim-jsonc'
+
+" Easymotion
+Plug 'easymotion/vim-easymotion'
+
+" Start Screen
+Plug 'mhinz/vim-startify'
+
+" Comments
+Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
