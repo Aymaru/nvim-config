@@ -6,10 +6,15 @@ Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 " Coc vim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Colorizer
+    Plug 'norcalli/nvim-colorizer.lua'
+
 " Themes
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" Plug 'christianchiarulli/nvcode.vim'
+" Plug 'nvim-treesitter/nvim-treesitter'
 
 " Floaterm
 Plug 'voldikss/vim-floaterm'
@@ -28,6 +33,9 @@ Plug 'mhinz/vim-startify'
 
 " Comments
 Plug 'preservim/nerdcommenter'
+
+" Emmets
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 

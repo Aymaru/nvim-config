@@ -5,10 +5,17 @@
 let mapleader=" "
 nnoremap <Space> <Nop>
 
+nnoremap <silent> <Leader>w :w<CR>
+
+nnoremap <silent> <Leader>q :q<CR>
+nnoremap <silent> <Leader>Q :xa<CR>
+
 " Better indenting
 vnoremap < <gv
 vnoremap > >gv
 
+"Toggle Comments
+map <Leader>/ <plug>NERDCommenterToggle
 
 
 " Better nav for omnicomplete
@@ -29,9 +36,9 @@ nnoremap <c-u> viwU<Esc>
 "nnoremap <silent> <S-TAB> :bprevious<CR>
 
 " TAB in general mode will move to text buffer
-nnoremap <silent> <TAB> gt 
+nnoremap <silent> <TAB> gt
 " SHIFT-TAB will go back
-nnoremap <silent> <S-TAB> gT 
+nnoremap <silent> <S-TAB> gT
 
 
 " Move selected line / block of text in visual mode
@@ -41,9 +48,9 @@ xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 
 " Alternate way to save
-nnoremap <silent> <C-s> :w<CR>
+" nnoremap <silent> <C-s> :w<CR>
 " Alternate way to quit
-nnoremap <silent> <C-Q> :wq!<CR>
+" nnoremap <silent> <C-Q> :wq!<CR>
 " Use control-c instead of escape
 nnoremap <silent> <C-c> <Esc>
 " <TAB>: completion.
